@@ -1,4 +1,4 @@
-def my_collection(col)
+def my_collect(col)
 
 i = 0
 while i < col.length
