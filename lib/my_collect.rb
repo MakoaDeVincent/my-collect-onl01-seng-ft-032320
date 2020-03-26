@@ -5,5 +5,5 @@ while i < col.length
     yield (col[i])
     i = i + 1
   end
-  array
+  col
 end
