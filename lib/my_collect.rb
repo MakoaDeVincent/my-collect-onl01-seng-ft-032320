@@ -1,9 +1,10 @@
 def my_collect(col)
 
 i = 0
+array = []
 while i < col.length
-    yield (col[i])
+    array << yield array[i]
     i = i + 1
   end
-  col
+  array
 end
